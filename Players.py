@@ -46,8 +46,4 @@ class Players:
             self.get_players()[counter].update_player(coords[0] - self.get_players()[counter].get_x(),
                                                       coords[1] - self.get_players()[counter].get_y())
             counter += 1
-        print("Post players class:")
-        for p in self.get_players():
-            print(p.get_player(), end = "")
-        print("back to host___________________________")
 
