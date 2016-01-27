@@ -19,7 +19,6 @@ import pygame
 
 class Tiles:
 
-    # init this sexy code
     def __init__(self, tile_width , tile_height, image_width, image_height, file_url, debug):
         self.tiles = []
 
